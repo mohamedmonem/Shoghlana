@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180CD906212AE9FA005A061F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CD905212AE9FA005A061F /* MenuVC.swift */; };
+		180CD90C212AED21005A061F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CD90B212AED21005A061F /* HomeVC.swift */; };
+		180CD90E212AEE72005A061F /* SharedHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CD90D212AEE72005A061F /* SharedHandler.swift */; };
+		180CD915212AF45E005A061F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CD914212AF45D005A061F /* SWRevealViewController.m */; };
+		18120D56210B619E00FB0370 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18120D55210B619E00FB0370 /* ForgetPasswordVC.swift */; };
+		18120D58210B61C800FB0370 /* FPConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18120D57210B61C800FB0370 /* FPConfirmationVC.swift */; };
+		18120D5A210B621600FB0370 /* FBNewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18120D59210B621600FB0370 /* FBNewPassword.swift */; };
+		18120D5C210B760000FB0370 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18120D5B210B760000FB0370 /* AboutVC.swift */; };
+		18120D5E210B7A3300FB0370 /* DesignableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18120D5D210B7A3300FB0370 /* DesignableViews.swift */; };
+		18120D60210BF87700FB0370 /* BeSpecialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18120D5F210BF87700FB0370 /* BeSpecialVC.swift */; };
+		18120D62210CA3C500FB0370 /* AddJobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18120D61210CA3C500FB0370 /* AddJobVC.swift */; };
+		181890E921ABACBF00F480D1 /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181890E821ABACBF00F480D1 /* AccountSettingsViewController.swift */; };
+		181890EB21ABBD8700F480D1 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181890EA21ABBD8600F480D1 /* ChangeEmailViewController.swift */; };
+		181890ED21AF56C300F480D1 /* NotificationsSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181890EC21AF56C200F480D1 /* NotificationsSettingsViewController.swift */; };
+		181890EF21AF5FD000F480D1 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181890EE21AF5FD000F480D1 /* ChangePasswordViewController.swift */; };
+		18207D3E214646690082E2C2 /* CoursesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18207D3C214646680082E2C2 /* CoursesModel.swift */; };
+		18207D462146DA750082E2C2 /* SupportMessagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18207D442146DA750082E2C2 /* SupportMessagesModel.swift */; };
+		18407953214B231B0091C411 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840794E214B231A0091C411 /* HomeModel.swift */; };
+		184ABC182155354C0030855E /* SuggestionsAndComplaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ABC172155354C0030855E /* SuggestionsAndComplaintsViewController.swift */; };
+		185AA87C214146ED00ED0D49 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA87A214146ED00ED0D49 /* Info.swift */; };
+		185AA87D214146ED00ED0D49 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA87B214146ED00ED0D49 /* UserModel.swift */; };
+		185AA880214148B400ED0D49 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA87F214148B400ED0D49 /* APIKeys.swift */; };
+		185AA8822141493800ED0D49 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA8812141493800ED0D49 /* Constants.swift */; };
+		185AA88421414EBD00ED0D49 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA88321414EBD00ED0D49 /* Loading.swift */; };
+		185AA886214158D600ED0D49 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA885214158D600ED0D49 /* HelperMethods.swift */; };
+		185AA88821415EA800ED0D49 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA88721415EA800ED0D49 /* Extensions.swift */; };
+		185AA88A2141609D00ED0D49 /* ExtraExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA8892141609D00ED0D49 /* ExtraExtensions.swift */; };
+		185AA88E2141AADD00ED0D49 /* JobsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA88C2141AADC00ED0D49 /* JobsModel.swift */; };
+		185AA89221433A0200ED0D49 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA89021433A0100ED0D49 /* SettingsModel.swift */; };
+		185AA8962143467300ED0D49 /* SingleJobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185AA8942143467300ED0D49 /* SingleJobModel.swift */; };
+		185FE7E1211DC5CB004C9590 /* JobApplicantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FE7E0211DC5CB004C9590 /* JobApplicantsVC.swift */; };
+		1880C18921090EB7005AD1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C18821090EB7005AD1E2 /* AppDelegate.swift */; };
+		1880C18B21090EB7005AD1E2 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C18A21090EB7005AD1E2 /* SplashScreenVC.swift */; };
+		1880C18E21090EB7005AD1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1880C18C21090EB7005AD1E2 /* Main.storyboard */; };
+		1880C19121090EB7005AD1E2 /* Shoghlana.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1880C18F21090EB7005AD1E2 /* Shoghlana.xcdatamodeld */; };
+		1880C19321090EB8005AD1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1880C19221090EB8005AD1E2 /* Assets.xcassets */; };
+		1880C19621090EB8005AD1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1880C19421090EB8005AD1E2 /* LaunchScreen.storyboard */; };
+		1880C1A121090EB9005AD1E2 /* ShoghlanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C1A021090EB9005AD1E2 /* ShoghlanaTests.swift */; };
+		1880C1AC21090EB9005AD1E2 /* ShoghlanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C1AB21090EB9005AD1E2 /* ShoghlanaUITests.swift */; };
+		1880C1BD2109111E005AD1E2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C1BC2109111E005AD1E2 /* LoginVC.swift */; };
+		1880C1C42109130A005AD1E2 /* DIN NEXT™ ARABIC BOLD.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1880C1C3210912F2005AD1E2 /* DIN NEXT™ ARABIC BOLD.otf */; };
+		1880C1C52109130A005AD1E2 /* DIN NEXT™ ARABIC MEDIUM .otf in Resources */ = {isa = PBXBuildFile; fileRef = 1880C1C1210912F2005AD1E2 /* DIN NEXT™ ARABIC MEDIUM .otf */; };
+		1880C1C62109130A005AD1E2 /* DIN NEXT™ ARABIC REGULAR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1880C1BF210912F2005AD1E2 /* DIN NEXT™ ARABIC REGULAR.otf */; };
+		1880C1C72109130A005AD1E2 /* DIN NEXT™ ARABIC ULTRALIGHT.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1880C1C2210912F2005AD1E2 /* DIN NEXT™ ARABIC ULTRALIGHT.otf */; };
+		1880C1C82109130A005AD1E2 /* GE_SS_Two_Medium_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1880C1C0210912F2005AD1E2 /* GE_SS_Two_Medium_1.otf */; };
+		1880C1CA210917A5005AD1E2 /* IBDesignables in Resources */ = {isa = PBXBuildFile; fileRef = 1880C1C9210917A5005AD1E2 /* IBDesignables */; };
+		1880C1CC21093833005AD1E2 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C1CB21093832005AD1E2 /* SignUpVC.swift */; };
+		1891C15721179D2C00D7B7F4 /* MyJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891C15621179D2C00D7B7F4 /* MyJobsVC.swift */; };
+		1891C15921179E8000D7B7F4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891C15821179E8000D7B7F4 /* TableViewCell.swift */; };
+		1891C15B2117AD5A00D7B7F4 /* FavouriteJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891C15A2117AD5A00D7B7F4 /* FavouriteJobsVC.swift */; };
+		1891C15D2117B24C00D7B7F4 /* RecommendedJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891C15C2117B24C00D7B7F4 /* RecommendedJobsVC.swift */; };
+		18BE2300215E573000B3954C /* AddSuitableJobPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE22FF215E573000B3954C /* AddSuitableJobPopUpViewController.swift */; };
+		18BE2306215E897100B3954C /* SelectionPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2305215E897100B3954C /* SelectionPopUpViewController.swift */; };
+		18BE230A21614AB100B3954C /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE230921614AB100B3954C /* SettingsTableViewController.swift */; };
+		18BE230E2161523C00B3954C /* SelectUserCountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE230D2161523C00B3954C /* SelectUserCountryTableViewController.swift */; };
+		18C6740D211A31880005D15A /* JobDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6740C211A31880005D15A /* JobDetailsVC.swift */; };
+		18ECFA9E214709BC00507243 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFA9D214709BC00507243 /* NotificationsViewController.swift */; };
+		18ECFAA1214718E300507243 /* NotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFA9F214718E200507243 /* NotificationsModel.swift */; };
+		18ECFAA821472CAC00507243 /* SingleCourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECFAA521472CAB00507243 /* SingleCourseModel.swift */; };
+		18EE9629211E23BA00775BDF /* TrainingCoursesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE9628211E23BA00775BDF /* TrainingCoursesVC.swift */; };
+		18EE962B211E3D9E00775BDF /* CourseDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE962A211E3D9E00775BDF /* CourseDetailsVC.swift */; };
+		18EE962D211E40B100775BDF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE962C211E40B100775BDF /* CollectionViewCell.swift */; };
+		18EE9632211E450800775BDF /* URLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE9631211E450800775BDF /* URLHandler.swift */; };
+		18EE9634211F023D00775BDF /* PackagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE9633211F023D00775BDF /* PackagesVC.swift */; };
+		18EE9636211F0D2600775BDF /* ContactAppAdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE9635211F0D2600775BDF /* ContactAppAdminVC.swift */; };
+		2280698FF212FACB70051EA2 /* Pods_ShoghlanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB205ABCEFFB53CDDB6FCCD /* Pods_ShoghlanaUITests.framework */; };
+		38DDBBB57A2513C11F37D7E6 /* Pods_ShoghlanaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E2347CDC3FB5A11BA6D465 /* Pods_ShoghlanaTests.framework */; };
+		9322FECCCA09F4D7CEF7DB98 /* Pods_Shoghlana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F2FEEE3EB1FC087DE370C0 /* Pods_Shoghlana.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1880C19D21090EB9005AD1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1880C17D21090EB7005AD1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1880C18421090EB7005AD1E2;
+			remoteInfo = Shoghlana;
+		};
+		1880C1A821090EB9005AD1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1880C17D21090EB7005AD1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1880C18421090EB7005AD1E2;
+			remoteInfo = Shoghlana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE359D6EF9F4270CD7BD243 /* Pods-ShoghlanaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoghlanaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoghlanaUITests/Pods-ShoghlanaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		180CD905212AE9FA005A061F /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		180CD90B212AED21005A061F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		180CD90D212AEE72005A061F /* SharedHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedHandler.swift; sourceTree = "<group>"; };
+		180CD912212AF45C005A061F /* Shoghlana-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shoghlana-Bridging-Header.h"; sourceTree = "<group>"; };
+		180CD913212AF45D005A061F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		180CD914212AF45D005A061F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		18120D55210B619E00FB0370 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		18120D57210B61C800FB0370 /* FPConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPConfirmationVC.swift; sourceTree = "<group>"; };
+		18120D59210B621600FB0370 /* FBNewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBNewPassword.swift; sourceTree = "<group>"; };
+		18120D5B210B760000FB0370 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		18120D5D210B7A3300FB0370 /* DesignableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableViews.swift; sourceTree = "<group>"; };
+		18120D5F210BF87700FB0370 /* BeSpecialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeSpecialVC.swift; sourceTree = "<group>"; };
+		18120D61210CA3C500FB0370 /* AddJobVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobVC.swift; sourceTree = "<group>"; };
+		181890E821ABACBF00F480D1 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
+		181890EA21ABBD8600F480D1 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
+		181890EC21AF56C200F480D1 /* NotificationsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsSettingsViewController.swift; sourceTree = "<group>"; };
+		181890EE21AF5FD000F480D1 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		18207D3C214646680082E2C2 /* CoursesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesModel.swift; sourceTree = "<group>"; };
+		18207D442146DA750082E2C2 /* SupportMessagesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportMessagesModel.swift; sourceTree = "<group>"; };
+		1840794E214B231A0091C411 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		184ABC172155354C0030855E /* SuggestionsAndComplaintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsAndComplaintsViewController.swift; sourceTree = "<group>"; };
+		185AA87A214146ED00ED0D49 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		185AA87B214146ED00ED0D49 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		185AA87F214148B400ED0D49 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		185AA8812141493800ED0D49 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		185AA88321414EBD00ED0D49 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		185AA885214158D600ED0D49 /* HelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
+		185AA88721415EA800ED0D49 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		185AA8892141609D00ED0D49 /* ExtraExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraExtensions.swift; sourceTree = "<group>"; };
+		185AA88C2141AADC00ED0D49 /* JobsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsModel.swift; sourceTree = "<group>"; };
+		185AA89021433A0100ED0D49 /* SettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		185AA8942143467300ED0D49 /* SingleJobModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleJobModel.swift; sourceTree = "<group>"; };
+		185FE7E0211DC5CB004C9590 /* JobApplicantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicantsVC.swift; sourceTree = "<group>"; };
+		1880C18521090EB7005AD1E2 /* Shoghlana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoghlana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1880C18821090EB7005AD1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1880C18A21090EB7005AD1E2 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		1880C18D21090EB7005AD1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1880C19021090EB7005AD1E2 /* Shoghlana.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shoghlana.xcdatamodel; sourceTree = "<group>"; };
+		1880C19221090EB8005AD1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1880C19521090EB8005AD1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1880C19721090EB8005AD1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1880C19C21090EB9005AD1E2 /* ShoghlanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoghlanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1880C1A021090EB9005AD1E2 /* ShoghlanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoghlanaTests.swift; sourceTree = "<group>"; };
+		1880C1A221090EB9005AD1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1880C1A721090EB9005AD1E2 /* ShoghlanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoghlanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1880C1AB21090EB9005AD1E2 /* ShoghlanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoghlanaUITests.swift; sourceTree = "<group>"; };
+		1880C1AD21090EB9005AD1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1880C1BC2109111E005AD1E2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1880C1BF210912F2005AD1E2 /* DIN NEXT™ ARABIC REGULAR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN NEXT™ ARABIC REGULAR.otf"; sourceTree = "<group>"; };
+		1880C1C0210912F2005AD1E2 /* GE_SS_Two_Medium_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GE_SS_Two_Medium_1.otf; sourceTree = "<group>"; };
+		1880C1C1210912F2005AD1E2 /* DIN NEXT™ ARABIC MEDIUM .otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN NEXT™ ARABIC MEDIUM .otf"; sourceTree = "<group>"; };
+		1880C1C2210912F2005AD1E2 /* DIN NEXT™ ARABIC ULTRALIGHT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN NEXT™ ARABIC ULTRALIGHT.otf"; sourceTree = "<group>"; };
+		1880C1C3210912F2005AD1E2 /* DIN NEXT™ ARABIC BOLD.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN NEXT™ ARABIC BOLD.otf"; sourceTree = "<group>"; };
+		1880C1C9210917A5005AD1E2 /* IBDesignables */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IBDesignables; sourceTree = "<group>"; };
+		1880C1CB21093832005AD1E2 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		1891C15621179D2C00D7B7F4 /* MyJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobsVC.swift; sourceTree = "<group>"; };
+		1891C15821179E8000D7B7F4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1891C15A2117AD5A00D7B7F4 /* FavouriteJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteJobsVC.swift; sourceTree = "<group>"; };
+		1891C15C2117B24C00D7B7F4 /* RecommendedJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedJobsVC.swift; sourceTree = "<group>"; };
+		18BE22FF215E573000B3954C /* AddSuitableJobPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSuitableJobPopUpViewController.swift; sourceTree = "<group>"; };
+		18BE2305215E897100B3954C /* SelectionPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionPopUpViewController.swift; sourceTree = "<group>"; };
+		18BE230921614AB100B3954C /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		18BE230D2161523C00B3954C /* SelectUserCountryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserCountryTableViewController.swift; sourceTree = "<group>"; };
+		18C6740C211A31880005D15A /* JobDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsVC.swift; sourceTree = "<group>"; };
+		18ECFA9D214709BC00507243 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		18ECFA9F214718E200507243 /* NotificationsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsModel.swift; sourceTree = "<group>"; };
+		18ECFAA521472CAB00507243 /* SingleCourseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleCourseModel.swift; sourceTree = "<group>"; };
+		18EE9628211E23BA00775BDF /* TrainingCoursesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCoursesVC.swift; sourceTree = "<group>"; };
+		18EE962A211E3D9E00775BDF /* CourseDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsVC.swift; sourceTree = "<group>"; };
+		18EE962C211E40B100775BDF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		18EE9631211E450800775BDF /* URLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHandler.swift; sourceTree = "<group>"; };
+		18EE9633211F023D00775BDF /* PackagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesVC.swift; sourceTree = "<group>"; };
+		18EE9635211F0D2600775BDF /* ContactAppAdminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppAdminVC.swift; sourceTree = "<group>"; };
+		2FCBE6737A34A839645CD5E7 /* Pods-ShoghlanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoghlanaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoghlanaUITests/Pods-ShoghlanaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8D17351C488A62A73B3214 /* Pods-ShoghlanaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoghlanaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoghlanaTests/Pods-ShoghlanaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92B07E524BAC1F00388FDE40 /* Pods-ShoghlanaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoghlanaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoghlanaTests/Pods-ShoghlanaTests.release.xcconfig"; sourceTree = "<group>"; };
+		93F2FEEE3EB1FC087DE370C0 /* Pods_Shoghlana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoghlana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB306E656BF146D34D6ED33 /* Pods-Shoghlana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoghlana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoghlana/Pods-Shoghlana.debug.xcconfig"; sourceTree = "<group>"; };
+		D1E2347CDC3FB5A11BA6D465 /* Pods_ShoghlanaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoghlanaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB205ABCEFFB53CDDB6FCCD /* Pods_ShoghlanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoghlanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A084EDBE8CD34364EADEE9 /* Pods-Shoghlana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoghlana.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoghlana/Pods-Shoghlana.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1880C18221090EB7005AD1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9322FECCCA09F4D7CEF7DB98 /* Pods_Shoghlana.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1880C19921090EB9005AD1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DDBBB57A2513C11F37D7E6 /* Pods_ShoghlanaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1880C1A421090EB9005AD1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2280698FF212FACB70051EA2 /* Pods_ShoghlanaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18120D54210B617600FB0370 /* Forget Password */ = {
+			isa = PBXGroup;
+			children = (
+				18120D55210B619E00FB0370 /* ForgetPasswordVC.swift */,
+				18120D57210B61C800FB0370 /* FPConfirmationVC.swift */,
+				18120D59210B621600FB0370 /* FBNewPassword.swift */,
+			);
+			path = "Forget Password";
+			sourceTree = "<group>";
+		};
+		185AA87E2141488F00ED0D49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185AA87F214148B400ED0D49 /* APIKeys.swift */,
+				185AA8812141493800ED0D49 /* Constants.swift */,
+				185AA88321414EBD00ED0D49 /* Loading.swift */,
+				185AA885214158D600ED0D49 /* HelperMethods.swift */,
+				185AA88721415EA800ED0D49 /* Extensions.swift */,
+				185AA8892141609D00ED0D49 /* ExtraExtensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1880C17C21090EB7005AD1E2 = {
+			isa = PBXGroup;
+			children = (
+				1880C18721090EB7005AD1E2 /* Shoghlana */,
+				1880C19F21090EB9005AD1E2 /* ShoghlanaTests */,
+				1880C1AA21090EB9005AD1E2 /* ShoghlanaUITests */,
+				1880C18621090EB7005AD1E2 /* Products */,
+				B0DB0AACC6D8A91E7A4C3235 /* Pods */,
+				B3839C00DD0333A23BBE5822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1880C18621090EB7005AD1E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1880C18521090EB7005AD1E2 /* Shoghlana.app */,
+				1880C19C21090EB9005AD1E2 /* ShoghlanaTests.xctest */,
+				1880C1A721090EB9005AD1E2 /* ShoghlanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1880C18721090EB7005AD1E2 /* Shoghlana */ = {
+			isa = PBXGroup;
+			children = (
+				185AA87E2141488F00ED0D49 /* Supporting Files */,
+				18EE9630211E44CD00775BDF /* Utilities */,
+				1880C1B921090F47005AD1E2 /* Model */,
+				1880C1BA21090F52005AD1E2 /* View */,
+				1880C1BB21090F59005AD1E2 /* Controller */,
+				1880C18821090EB7005AD1E2 /* AppDelegate.swift */,
+				180CD913212AF45D005A061F /* SWRevealViewController.h */,
+				180CD914212AF45D005A061F /* SWRevealViewController.m */,
+				1880C19221090EB8005AD1E2 /* Assets.xcassets */,
+				1880C19421090EB8005AD1E2 /* LaunchScreen.storyboard */,
+				1880C19721090EB8005AD1E2 /* Info.plist */,
+				1880C18F21090EB7005AD1E2 /* Shoghlana.xcdatamodeld */,
+				18120D5D210B7A3300FB0370 /* DesignableViews.swift */,
+				1880C1C9210917A5005AD1E2 /* IBDesignables */,
+				1880C1BE210912B7005AD1E2 /* Fonts */,
+				180CD912212AF45C005A061F /* Shoghlana-Bridging-Header.h */,
+			);
+			path = Shoghlana;
+			sourceTree = "<group>";
+		};
+		1880C19F21090EB9005AD1E2 /* ShoghlanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1880C1A021090EB9005AD1E2 /* ShoghlanaTests.swift */,
+				1880C1A221090EB9005AD1E2 /* Info.plist */,
+			);
+			path = ShoghlanaTests;
+			sourceTree = "<group>";
+		};
+		1880C1AA21090EB9005AD1E2 /* ShoghlanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1880C1AB21090EB9005AD1E2 /* ShoghlanaUITests.swift */,
+				1880C1AD21090EB9005AD1E2 /* Info.plist */,
+			);
+			path = ShoghlanaUITests;
+			sourceTree = "<group>";
+		};
+		1880C1B921090F47005AD1E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1840794E214B231A0091C411 /* HomeModel.swift */,
+				18ECFAA521472CAB00507243 /* SingleCourseModel.swift */,
+				18ECFA9F214718E200507243 /* NotificationsModel.swift */,
+				18207D442146DA750082E2C2 /* SupportMessagesModel.swift */,
+				18207D3C214646680082E2C2 /* CoursesModel.swift */,
+				185AA8942143467300ED0D49 /* SingleJobModel.swift */,
+				185AA89021433A0100ED0D49 /* SettingsModel.swift */,
+				185AA88C2141AADC00ED0D49 /* JobsModel.swift */,
+				185AA87A214146ED00ED0D49 /* Info.swift */,
+				185AA87B214146ED00ED0D49 /* UserModel.swift */,
+				1891C15821179E8000D7B7F4 /* TableViewCell.swift */,
+				18EE962C211E40B100775BDF /* CollectionViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1880C1BA21090F52005AD1E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1880C18C21090EB7005AD1E2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1880C1BB21090F59005AD1E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BE22FE215E570400B3954C /* Add Suitable Jobs */,
+				18120D54210B617600FB0370 /* Forget Password */,
+				1880C18A21090EB7005AD1E2 /* SplashScreenVC.swift */,
+				1880C1BC2109111E005AD1E2 /* LoginVC.swift */,
+				1880C1CB21093832005AD1E2 /* SignUpVC.swift */,
+				18120D5B210B760000FB0370 /* AboutVC.swift */,
+				18120D5F210BF87700FB0370 /* BeSpecialVC.swift */,
+				18120D61210CA3C500FB0370 /* AddJobVC.swift */,
+				1891C15621179D2C00D7B7F4 /* MyJobsVC.swift */,
+				1891C15C2117B24C00D7B7F4 /* RecommendedJobsVC.swift */,
+				1891C15A2117AD5A00D7B7F4 /* FavouriteJobsVC.swift */,
+				18C6740C211A31880005D15A /* JobDetailsVC.swift */,
+				185FE7E0211DC5CB004C9590 /* JobApplicantsVC.swift */,
+				18EE9628211E23BA00775BDF /* TrainingCoursesVC.swift */,
+				18EE962A211E3D9E00775BDF /* CourseDetailsVC.swift */,
+				18EE9633211F023D00775BDF /* PackagesVC.swift */,
+				18EE9635211F0D2600775BDF /* ContactAppAdminVC.swift */,
+				180CD905212AE9FA005A061F /* MenuVC.swift */,
+				180CD90B212AED21005A061F /* HomeVC.swift */,
+				18ECFA9D214709BC00507243 /* NotificationsViewController.swift */,
+				184ABC172155354C0030855E /* SuggestionsAndComplaintsViewController.swift */,
+				18BE230921614AB100B3954C /* SettingsTableViewController.swift */,
+				18BE230D2161523C00B3954C /* SelectUserCountryTableViewController.swift */,
+				181890E821ABACBF00F480D1 /* AccountSettingsViewController.swift */,
+				181890EA21ABBD8600F480D1 /* ChangeEmailViewController.swift */,
+				181890EC21AF56C200F480D1 /* NotificationsSettingsViewController.swift */,
+				181890EE21AF5FD000F480D1 /* ChangePasswordViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1880C1BE210912B7005AD1E2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1880C1C3210912F2005AD1E2 /* DIN NEXT™ ARABIC BOLD.otf */,
+				1880C1C1210912F2005AD1E2 /* DIN NEXT™ ARABIC MEDIUM .otf */,
+				1880C1BF210912F2005AD1E2 /* DIN NEXT™ ARABIC REGULAR.otf */,
+				1880C1C2210912F2005AD1E2 /* DIN NEXT™ ARABIC ULTRALIGHT.otf */,
+				1880C1C0210912F2005AD1E2 /* GE_SS_Two_Medium_1.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		18BE22FE215E570400B3954C /* Add Suitable Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				18BE22FF215E573000B3954C /* AddSuitableJobPopUpViewController.swift */,
+				18BE2305215E897100B3954C /* SelectionPopUpViewController.swift */,
+			);
+			path = "Add Suitable Jobs";
+			sourceTree = "<group>";
+		};
+		18EE9630211E44CD00775BDF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18EE9631211E450800775BDF /* URLHandler.swift */,
+				180CD90D212AEE72005A061F /* SharedHandler.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B0DB0AACC6D8A91E7A4C3235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EB306E656BF146D34D6ED33 /* Pods-Shoghlana.debug.xcconfig */,
+				E2A084EDBE8CD34364EADEE9 /* Pods-Shoghlana.release.xcconfig */,
+				4F8D17351C488A62A73B3214 /* Pods-ShoghlanaTests.debug.xcconfig */,
+				92B07E524BAC1F00388FDE40 /* Pods-ShoghlanaTests.release.xcconfig */,
+				0DE359D6EF9F4270CD7BD243 /* Pods-ShoghlanaUITests.debug.xcconfig */,
+				2FCBE6737A34A839645CD5E7 /* Pods-ShoghlanaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3839C00DD0333A23BBE5822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F2FEEE3EB1FC087DE370C0 /* Pods_Shoghlana.framework */,
+				D1E2347CDC3FB5A11BA6D465 /* Pods_ShoghlanaTests.framework */,
+				DFB205ABCEFFB53CDDB6FCCD /* Pods_ShoghlanaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1880C18421090EB7005AD1E2 /* Shoghlana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1880C1B021090EB9005AD1E2 /* Build configuration list for PBXNativeTarget "Shoghlana" */;
+			buildPhases = (
+				036D52DA89261A55BE76496E /* [CP] Check Pods Manifest.lock */,
+				1880C18121090EB7005AD1E2 /* Sources */,
+				1880C18221090EB7005AD1E2 /* Frameworks */,
+				1880C18321090EB7005AD1E2 /* Resources */,
+				AE6CC995E4551921B17F46D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoghlana;
+			productName = Shoghlana;
+			productReference = 1880C18521090EB7005AD1E2 /* Shoghlana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1880C19B21090EB9005AD1E2 /* ShoghlanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1880C1B321090EB9005AD1E2 /* Build configuration list for PBXNativeTarget "ShoghlanaTests" */;
+			buildPhases = (
+				01C7E53E8EBFADB36DCC61A1 /* [CP] Check Pods Manifest.lock */,
+				1880C19821090EB9005AD1E2 /* Sources */,
+				1880C19921090EB9005AD1E2 /* Frameworks */,
+				1880C19A21090EB9005AD1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1880C19E21090EB9005AD1E2 /* PBXTargetDependency */,
+			);
+			name = ShoghlanaTests;
+			productName = ShoghlanaTests;
+			productReference = 1880C19C21090EB9005AD1E2 /* ShoghlanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1880C1A621090EB9005AD1E2 /* ShoghlanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1880C1B621090EB9005AD1E2 /* Build configuration list for PBXNativeTarget "ShoghlanaUITests" */;
+			buildPhases = (
+				16AF12FF280478070B4E1F35 /* [CP] Check Pods Manifest.lock */,
+				1880C1A321090EB9005AD1E2 /* Sources */,
+				1880C1A421090EB9005AD1E2 /* Frameworks */,
+				1880C1A521090EB9005AD1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1880C1A921090EB9005AD1E2 /* PBXTargetDependency */,
+			);
+			name = ShoghlanaUITests;
+			productName = ShoghlanaUITests;
+			productReference = 1880C1A721090EB9005AD1E2 /* ShoghlanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1880C17D21090EB7005AD1E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1880C18421090EB7005AD1E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					1880C19B21090EB9005AD1E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1880C18421090EB7005AD1E2;
+					};
+					1880C1A621090EB9005AD1E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1880C18421090EB7005AD1E2;
+					};
+				};
+			};
+			buildConfigurationList = 1880C18021090EB7005AD1E2 /* Build configuration list for PBXProject "Shoghlana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1880C17C21090EB7005AD1E2;
+			productRefGroup = 1880C18621090EB7005AD1E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1880C18421090EB7005AD1E2 /* Shoghlana */,
+				1880C19B21090EB9005AD1E2 /* ShoghlanaTests */,
+				1880C1A621090EB9005AD1E2 /* ShoghlanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1880C18321090EB7005AD1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1880C1C42109130A005AD1E2 /* DIN NEXT™ ARABIC BOLD.otf in Resources */,
+				1880C1C52109130A005AD1E2 /* DIN NEXT™ ARABIC MEDIUM .otf in Resources */,
+				1880C1C62109130A005AD1E2 /* DIN NEXT™ ARABIC REGULAR.otf in Resources */,
+				1880C1CA210917A5005AD1E2 /* IBDesignables in Resources */,
+				1880C1C72109130A005AD1E2 /* DIN NEXT™ ARABIC ULTRALIGHT.otf in Resources */,
+				1880C1C82109130A005AD1E2 /* GE_SS_Two_Medium_1.otf in Resources */,
+				1880C19621090EB8005AD1E2 /* LaunchScreen.storyboard in Resources */,
+				1880C19321090EB8005AD1E2 /* Assets.xcassets in Resources */,
+				1880C18E21090EB7005AD1E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1880C19A21090EB9005AD1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1880C1A521090EB9005AD1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C7E53E8EBFADB36DCC61A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShoghlanaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		036D52DA89261A55BE76496E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shoghlana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16AF12FF280478070B4E1F35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShoghlanaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6CC995E4551921B17F46D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shoghlana/Pods-Shoghlana-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JHSpinner/JHSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/KMPopUp/KMPopUp.framework",
+				"${BUILT_PRODUCTS_DIR}/MOLH/MOLH.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PTPPlaceholderTextView/PTPPlaceholderTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SWMessages/SWMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMPopUp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOLH.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PTPPlaceholderTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoghlana/Pods-Shoghlana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1880C18121090EB7005AD1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18120D5E210B7A3300FB0370 /* DesignableViews.swift in Sources */,
+				185AA880214148B400ED0D49 /* APIKeys.swift in Sources */,
+				18BE2306215E897100B3954C /* SelectionPopUpViewController.swift in Sources */,
+				185FE7E1211DC5CB004C9590 /* JobApplicantsVC.swift in Sources */,
+				1880C18B21090EB7005AD1E2 /* SplashScreenVC.swift in Sources */,
+				18207D462146DA750082E2C2 /* SupportMessagesModel.swift in Sources */,
+				18BE230A21614AB100B3954C /* SettingsTableViewController.swift in Sources */,
+				18407953214B231B0091C411 /* HomeModel.swift in Sources */,
+				180CD90C212AED21005A061F /* HomeVC.swift in Sources */,
+				18120D58210B61C800FB0370 /* FPConfirmationVC.swift in Sources */,
+				18EE9632211E450800775BDF /* URLHandler.swift in Sources */,
+				185AA8822141493800ED0D49 /* Constants.swift in Sources */,
+				185AA88A2141609D00ED0D49 /* ExtraExtensions.swift in Sources */,
+				1880C18921090EB7005AD1E2 /* AppDelegate.swift in Sources */,
+				184ABC182155354C0030855E /* SuggestionsAndComplaintsViewController.swift in Sources */,
+				180CD915212AF45E005A061F /* SWRevealViewController.m in Sources */,
+				18120D5A210B621600FB0370 /* FBNewPassword.swift in Sources */,
+				1891C15B2117AD5A00D7B7F4 /* FavouriteJobsVC.swift in Sources */,
+				181890ED21AF56C300F480D1 /* NotificationsSettingsViewController.swift in Sources */,
+				185AA8962143467300ED0D49 /* SingleJobModel.swift in Sources */,
+				1891C15921179E8000D7B7F4 /* TableViewCell.swift in Sources */,
+				1880C1BD2109111E005AD1E2 /* LoginVC.swift in Sources */,
+				18ECFAA821472CAC00507243 /* SingleCourseModel.swift in Sources */,
+				18EE9634211F023D00775BDF /* PackagesVC.swift in Sources */,
+				181890EB21ABBD8700F480D1 /* ChangeEmailViewController.swift in Sources */,
+				185AA88E2141AADD00ED0D49 /* JobsModel.swift in Sources */,
+				18EE9629211E23BA00775BDF /* TrainingCoursesVC.swift in Sources */,
+				18120D62210CA3C500FB0370 /* AddJobVC.swift in Sources */,
+				18BE2300215E573000B3954C /* AddSuitableJobPopUpViewController.swift in Sources */,
+				185AA89221433A0200ED0D49 /* SettingsModel.swift in Sources */,
+				1891C15721179D2C00D7B7F4 /* MyJobsVC.swift in Sources */,
+				185AA886214158D600ED0D49 /* HelperMethods.swift in Sources */,
+				185AA87C214146ED00ED0D49 /* Info.swift in Sources */,
+				185AA88821415EA800ED0D49 /* Extensions.swift in Sources */,
+				18EE962B211E3D9E00775BDF /* CourseDetailsVC.swift in Sources */,
+				18120D5C210B760000FB0370 /* AboutVC.swift in Sources */,
+				18C6740D211A31880005D15A /* JobDetailsVC.swift in Sources */,
+				181890E921ABACBF00F480D1 /* AccountSettingsViewController.swift in Sources */,
+				18ECFAA1214718E300507243 /* NotificationsModel.swift in Sources */,
+				181890EF21AF5FD000F480D1 /* ChangePasswordViewController.swift in Sources */,
+				18EE9636211F0D2600775BDF /* ContactAppAdminVC.swift in Sources */,
+				1880C1CC21093833005AD1E2 /* SignUpVC.swift in Sources */,
+				180CD906212AE9FA005A061F /* MenuVC.swift in Sources */,
+				185AA88421414EBD00ED0D49 /* Loading.swift in Sources */,
+				18ECFA9E214709BC00507243 /* NotificationsViewController.swift in Sources */,
+				185AA87D214146ED00ED0D49 /* UserModel.swift in Sources */,
+				1891C15D2117B24C00D7B7F4 /* RecommendedJobsVC.swift in Sources */,
+				180CD90E212AEE72005A061F /* SharedHandler.swift in Sources */,
+				18EE962D211E40B100775BDF /* CollectionViewCell.swift in Sources */,
+				18BE230E2161523C00B3954C /* SelectUserCountryTableViewController.swift in Sources */,
+				18120D56210B619E00FB0370 /* ForgetPasswordVC.swift in Sources */,
+				18207D3E214646690082E2C2 /* CoursesModel.swift in Sources */,
+				1880C19121090EB7005AD1E2 /* Shoghlana.xcdatamodeld in Sources */,
+				18120D60210BF87700FB0370 /* BeSpecialVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1880C19821090EB9005AD1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1880C1A121090EB9005AD1E2 /* ShoghlanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1880C1A321090EB9005AD1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1880C1AC21090EB9005AD1E2 /* ShoghlanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1880C19E21090EB9005AD1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1880C18421090EB7005AD1E2 /* Shoghlana */;
+			targetProxy = 1880C19D21090EB9005AD1E2 /* PBXContainerItemProxy */;
+		};
+		1880C1A921090EB9005AD1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1880C18421090EB7005AD1E2 /* Shoghlana */;
+			targetProxy = 1880C1A821090EB9005AD1E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1880C18C21090EB7005AD1E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1880C18D21090EB7005AD1E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1880C19421090EB8005AD1E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1880C19521090EB8005AD1E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1880C1AE21090EB9005AD1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1880C1AF21090EB9005AD1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1880C1B121090EB9005AD1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB306E656BF146D34D6ED33 /* Pods-Shoghlana.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X388P485RF;
+				INFOPLIST_FILE = Shoghlana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shoghlana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shoghlana/Shoghlana-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1880C1B221090EB9005AD1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A084EDBE8CD34364EADEE9 /* Pods-Shoghlana.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X388P485RF;
+				INFOPLIST_FILE = Shoghlana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shoghlana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shoghlana/Shoghlana-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1880C1B421090EB9005AD1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8D17351C488A62A73B3214 /* Pods-ShoghlanaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoghlanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoghlanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoghlana.app/Shoghlana";
+			};
+			name = Debug;
+		};
+		1880C1B521090EB9005AD1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B07E524BAC1F00388FDE40 /* Pods-ShoghlanaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoghlanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoghlanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoghlana.app/Shoghlana";
+			};
+			name = Release;
+		};
+		1880C1B721090EB9005AD1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE359D6EF9F4270CD7BD243 /* Pods-ShoghlanaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoghlanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoghlanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoghlana;
+			};
+			name = Debug;
+		};
+		1880C1B821090EB9005AD1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FCBE6737A34A839645CD5E7 /* Pods-ShoghlanaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShoghlanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoghlanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoghlana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1880C18021090EB7005AD1E2 /* Build configuration list for PBXProject "Shoghlana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1880C1AE21090EB9005AD1E2 /* Debug */,
+				1880C1AF21090EB9005AD1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1880C1B021090EB9005AD1E2 /* Build configuration list for PBXNativeTarget "Shoghlana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1880C1B121090EB9005AD1E2 /* Debug */,
+				1880C1B221090EB9005AD1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1880C1B321090EB9005AD1E2 /* Build configuration list for PBXNativeTarget "ShoghlanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1880C1B421090EB9005AD1E2 /* Debug */,
+				1880C1B521090EB9005AD1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1880C1B621090EB9005AD1E2 /* Build configuration list for PBXNativeTarget "ShoghlanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1880C1B721090EB9005AD1E2 /* Debug */,
+				1880C1B821090EB9005AD1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1880C18F21090EB7005AD1E2 /* Shoghlana.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1880C19021090EB7005AD1E2 /* Shoghlana.xcdatamodel */,
+			);
+			currentVersion = 1880C19021090EB7005AD1E2 /* Shoghlana.xcdatamodel */;
+			path = Shoghlana.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1880C17D21090EB7005AD1E2 /* Project object */;
+}
